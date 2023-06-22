@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",//version de javascript
+        "module": "commonjs",//mecanismo de empaquetamiento
+        "rootDir": "src",//directorio de entrada donde esta el codigo fuente 
+        "outDir": "dist",//directorio de salida donde se genera el codigo compilado osea los js
+        "strict": true,//habilita el modo estricto para que  haga la verificacion estricta 
+        "esModuleInterop": true,//habilita la interoperabilidad de modulos
+        "resolveJsonModule": true
+    },
+    "include": ["src/**/*.ts"],//incluye la carpeta src],
+    "exclude": ["node_modules"]//excluye la carpeta node_modules]
+    
+}
